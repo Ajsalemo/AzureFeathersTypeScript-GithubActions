@@ -36,7 +36,7 @@ jobs:
 
       - name: npm install and build
         run: |
-          npm install
+          npm install --only=prod
           npm run build
 
       - name: Upload artifact for deployment job
