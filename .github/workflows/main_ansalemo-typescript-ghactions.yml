@@ -12,6 +12,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: Build and Deploy
 
     steps:
       - uses: actions/checkout@v2
